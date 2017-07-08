@@ -1,0 +1,102 @@
+body {
+  color: red;
+  margin: 0;
+  background-color: black; }
+
+.bck {
+  background-image: url("/darkforest.jpg");
+  height: 99vh;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%; }
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+  background-image: url("/darker.jpg");
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+  height: 99vh; }
+
+.title {
+  color: #bf0000;
+  font-size: 420px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  top: -10%;
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+.backwards-n {
+  -webkit-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  display: inline-block; }
+
+.subs {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-size: 40px; }
+
+.subtitles {
+  margin-top: -8%; }
+
+.subs:last-of-type {
+  color: #8d4d0c;
+  font-size: 23px;
+  text-decoration: overline;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red; }
+
+#zombies {
+  color: white;
+  letter-spacing: 0.2em; }
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-decoration: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  padding-top: 50px; }
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  color: red;
+  text-transform: uppercase;
+  padding-bottom: 0.3em; }
+
+.prepare {
+  text-align: center; }
+  .prepare .contain {
+    -webkit-box-shadow: inset 0px 0px 20px 20px #000;
+            box-shadow: inset 0px 0px 20px 20px #000;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 2em; }
+    .prepare .contain ul {
+      display: block;
+      margin-top: -2em;
+      padding: 0 0 20px 0; }
+      .prepare .contain ul li {
+        display: inline-block;
+        list-style-type: disc; }
+        .prepare .contain ul li a:link, .prepare .contain ul li a:visited {
+          color: #8d4d0c;
+          font-weight: bold;
+          text-transform: capitalize;
+          -webkit-text-decoration-color: black;
+                  text-decoration-color: black; }

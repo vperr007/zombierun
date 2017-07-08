@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-decoration: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  padding-top: 50px; }
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  color: red;
+  text-transform: uppercase;
+  padding-bottom: 0.3em; }
+
+.prepare {
+  text-align: center; }
+  .prepare .contain {
+    -webkit-box-shadow: inset 0px 0px 20px 20px #000;
+            box-shadow: inset 0px 0px 20px 20px #000;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 2em; }
+    .prepare .contain ul {
+      display: block;
+      margin-top: -2em;
+      padding: 0 0 20px 0; }
+      .prepare .contain ul li {
+        display: inline-block;
+        list-style-type: disc; }
+        .prepare .contain ul li a:link, .prepare .contain ul li a:visited {
+          color: #8d4d0c;
+          font-weight: bold;
+          text-transform: capitalize;
+          -webkit-text-decoration-color: black;
+                  text-decoration-color: black; }
