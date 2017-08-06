@@ -4,7 +4,7 @@ body {
   background-color: black; }
 
 .bck {
-  background-image: url("/darkforest.jpg");
+  background: url("/darkforest.jpg");
   height: 99vh;
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%; }
