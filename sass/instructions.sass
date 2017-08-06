@@ -20,13 +20,17 @@ h2
 
 .prepare
   text-align: center
+  background-image: url('/stat.jpg')
+  overflow: visible
   .contain
     box-shadow: inset 0px 0px 20px 20px #000
-    background-color: white
-    width: 60%
+    background-color: black
+    width: 80%
+    overflow: visible
     margin: 0 auto
     padding-bottom: 2em
     ul
+      // display: inline
       display: block
       // padding-bottom: 20px
       margin-top: -2em
@@ -34,9 +38,27 @@ h2
       // text-align: left
       li
         display: inline-block
+        font-size: 1.5em
         list-style-type: disc
         a:link, a:visited
-          color: $yuck
+          color: white
           font-weight: bold
           text-transform: capitalize
+          // display: list-item
           text-decoration-color: black
+          // padding-right: 20px
+        a:hover
+          text-decoration: underline
+
+button.download
+  background-color: red
+  border: none
+  color: white
+  padding: 0.5em
+  font-weight: bold
+  margin: 0 0 6.5em 0
+  page-break-after: auto
+
+// hr.style2
+// 	border-top: 10px solid #3b1054
+  // border-bottom: black solid 1px

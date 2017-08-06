@@ -8,4 +8,16 @@ $(document).ready(function(){
     $('.subs').wrapAll("<div class='subtitles' />").hide().fadeIn(4000);
   } ,500);
 
+  // $('li').append('|');
+  //used | instead of bullet points to seperate li items
+  $('li').not(':last-child').append(' |').css({
+    'color':'#8d4d0c', //$yuck color
+    'font-weight':'bold'
+  });
+
+$('a[href="#"]').click(function(e){
+  alert('Coming Soon!');
+  e.preventDefault();
+});
+
 });

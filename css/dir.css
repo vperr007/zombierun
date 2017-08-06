@@ -79,12 +79,15 @@ h2 {
   padding-bottom: 0.3em; }
 
 .prepare {
-  text-align: center; }
+  text-align: center;
+  background-image: url("/stat.jpg");
+  overflow: visible; }
   .prepare .contain {
     -webkit-box-shadow: inset 0px 0px 20px 20px #000;
             box-shadow: inset 0px 0px 20px 20px #000;
-    background-color: white;
-    width: 60%;
+    background-color: black;
+    width: 80%;
+    overflow: visible;
     margin: 0 auto;
     padding-bottom: 2em; }
     .prepare .contain ul {
@@ -93,10 +96,22 @@ h2 {
       padding: 0 0 20px 0; }
       .prepare .contain ul li {
         display: inline-block;
+        font-size: 1.5em;
         list-style-type: disc; }
         .prepare .contain ul li a:link, .prepare .contain ul li a:visited {
-          color: #8d4d0c;
+          color: white;
           font-weight: bold;
           text-transform: capitalize;
           -webkit-text-decoration-color: black;
                   text-decoration-color: black; }
+        .prepare .contain ul li a:hover {
+          text-decoration: underline; }
+
+button.download {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.5em;
+  font-weight: bold;
+  margin: 0 0 6.5em 0;
+  page-break-after: auto; }
