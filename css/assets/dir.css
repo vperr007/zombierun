@@ -1,0 +1,193 @@
+body {
+  color: red;
+  margin: 0;
+  background-color: black; }
+
+.bck {
+  background: url("/darkforest.jpg");
+  height: 99vh;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%; }
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+  background: url("/darker.jpg");
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+  height: 99vh; }
+
+.ll {
+  height: 100vh;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%; }
+
+.title {
+  color: #bf0000;
+  font-size: 420px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  top: -10%;
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+.backwards-n {
+  -webkit-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  display: inline-block; }
+
+.subs {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-size: 40px; }
+
+.subtitles {
+  margin-top: -8%; }
+
+.subs:last-of-type {
+  color: #8d4d0c;
+  font-size: 23px;
+  text-decoration: overline;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red; }
+
+#zombies {
+  color: white;
+  letter-spacing: 0.2em; }
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-decoration: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  padding-top: 50px; }
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 0.3em; }
+  h2 a:link {
+    color: red; }
+  h2 a:visited {
+    color: #8d4d0c; }
+
+.prepare {
+  text-align: center;
+  background-image: url("/stat.jpg");
+  overflow: visible; }
+  .prepare .contain {
+    -webkit-box-shadow: inset 0px 0px 20px 20px #000;
+            box-shadow: inset 0px 0px 20px 20px #000;
+    background-color: black;
+    width: 80%;
+    overflow: visible;
+    margin: 0 auto;
+    padding-bottom: 2em; }
+    .prepare .contain ul {
+      display: block;
+      margin-top: -2em;
+      padding: 0 0 20px 0; }
+      .prepare .contain ul li {
+        display: inline-block;
+        font-size: 1.5em;
+        list-style-type: disc; }
+        .prepare .contain ul li a:link, .prepare .contain ul li a:visited {
+          color: white;
+          font-weight: bold;
+          text-transform: capitalize;
+          -webkit-text-decoration-color: black;
+                  text-decoration-color: black; }
+        .prepare .contain ul li a:hover {
+          text-decoration: underline; }
+
+button.download {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.5em;
+  font-weight: bold;
+  margin: 0 0 6.5em 0;
+  page-break-after: auto; }
+
+.pages {
+  background-color: black;
+  padding: 0 4em; }
+  .pages h2 {
+    text-decoration: none;
+    font-size: 4em;
+    color: red;
+    text-transform: uppercase; }
+  .pages h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: -5% 0 -3% 0;
+    text-decoration: underline; }
+  .pages h3:nth-child(2) {
+    margin-top: -1.2em; }
+  .pages .wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 98%;
+    height: auto;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin: -4% 3% 5% 1%;
+    padding: 5% 0; }
+  .pages .item1 {
+    width: 48%;
+    height: 36%;
+    margin: 0 1%; }
+  .pages .item2 {
+    margin: 0 1%;
+    width: 48%;
+    height: 36%; }
+  .pages .item3 {
+    width: 62%;
+    height: 70%;
+    margin: 3% 1%; }
+  .pages .nested-items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 34%;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    height: 70%;
+    margin: 3% 0 0 1%; }
+    .pages .nested-items .item4, .pages .nested-items .item5 {
+      width: 100%;
+      height: 47%; }
+    .pages .nested-items .item4 {
+      margin-bottom: 5%; }
+  .pages .item6 {
+    width: 31.2%;
+    height: 31%;
+    margin: 2% 1% 2% 1%; }
+  .pages .tops {
+    width: 100%;
+    height: 100%; }
+  .pages .space {
+    margin-top: 4%; }

@@ -16,11 +16,15 @@
     "url": "https://github.com/vperr007/zombierun/issues"
   },
   "homepage": "https://github.com/vperr007/zombierun#readme",
-  "devDependencies": {
-    "browser-sync": "^2.18.12",
-    "gulp": "^3.9.1",
+  "dependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.8.8",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
   }
 }

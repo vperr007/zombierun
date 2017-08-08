@@ -1,63 +1,3 @@
-body {
-  color: red;
-  margin: 0;
-  background-color: black; }
-
-.bck {
-  background: url("/darkforest.jpg");
-  height: 99vh;
-  -webkit-background-size: 100% 100%;
-          background-size: 100% 100%; }
-
-.dark {
-  background-color: rgba(0, 0, 0, 0.9);
-  -webkit-transition: all 2s ease;
-  -o-transition: all 2s ease;
-  transition: all 2s ease;
-  background-image: url("/darker.jpg");
-  -webkit-background-size: 100% 100%;
-          background-size: 100% 100%;
-  height: 99vh; }
-
-.title {
-  color: #bf0000;
-  font-size: 420px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  display: inline-block;
-  top: -10%;
-  position: absolute;
-  left: 0;
-  right: 0; }
-
-.backwards-n {
-  -webkit-transform: scale(-1, 1);
-      -ms-transform: scale(-1, 1);
-          transform: scale(-1, 1);
-  display: inline-block; }
-
-.subs {
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-  font-size: 40px; }
-
-.subtitles {
-  margin-top: -8%; }
-
-.subs:last-of-type {
-  color: #8d4d0c;
-  font-size: 23px;
-  text-decoration: overline;
-  -webkit-text-decoration-color: red;
-          text-decoration-color: red; }
-
-#zombies {
-  color: white;
-  letter-spacing: 0.2em; }
-
 h1 {
   text-align: center;
   font-size: 4em;
@@ -74,9 +14,13 @@ h2 {
   font-weight: bolder;
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
-  color: red;
+  color: white;
   text-transform: uppercase;
   padding-bottom: 0.3em; }
+  h2 a:link {
+    color: red; }
+  h2 a:visited {
+    color: #8d4d0c; }
 
 .prepare {
   text-align: center;
@@ -115,7 +59,3 @@ button.download {
   font-weight: bold;
   margin: 0 0 6.5em 0;
   page-break-after: auto; }
-
-body {
-  font-family: 'Oswald', sans-serif;
-  font-size: 18px; }
