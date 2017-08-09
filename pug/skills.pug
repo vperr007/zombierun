@@ -1,41 +1,44 @@
-head
-  <link href='/css/main.css' rel='stylesheet'>
+include head.pug
 
 body
+include nav.pug
+
+
 div.pages
   h2 Skills
-    h3 Hunting
-      div(class="wrap")
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
+  div(class='border')
+  h3(id='hunting') Hunting
+    div(class="wrap")
+      div(class='item6')
+        img(class='tops' src='/fire.jpg')
+      div(class='item6')
+        img(class='tops' src='/fire.jpg')
+      div(class='item6')
+        img(class='tops' src='/fire.jpg')
+      div(class='item6')
+        img(class='tops' src='/fire.jpg')
+      div(class='item6')
+        img(class='tops' src='/fire.jpg')
+      div(class='item6')
+        img(class='tops' src='/fire.jpg')
 
-    h3 Building A Shelter
-      div(class="wrap")
-        div(class='item1')
-          img(class='tops' src='/fire.jpg')
-        div(class='item2')
-          img(class='tops' src='/fire.jpg')
-        div(class='item3')
-          img(class='tops'  src='/fire.jpg')
-        div(class='nested-items')
-          div(class='item4')
-            img(class='tops'  src='/fire.jpg')
-          div(class='item5')
-            img(class='tops'  src='/fire.jpg')
+  h3(id='shelter') Building A shelter
+    div(class="wrap")
+      div(class='item1')
+        img(class='tops' src='/shelter2.jpg')
+      div(class='item2')
+        img(class='tops' src='/shelter2.jpg')
+      div(class='item3')
+        img(class='tops'  src='/shelter2.jpg')
+      div(class='nested-items')
+        div(class='item4')
+          img(class='tops'  src='/shelter2.jpg')
+        div(class='item5')
+          img(class='tops'  src='/shelter2.jpg')
 
-    h3 Making The Water Drinkable
-      div(class='wrap')
-        div(class='item1')
-          img(class='tops' src='/fire.jpg')
-        div(class='item2')
-          img(class='tops' src='/fire.jpg')
+  h3(id='water' class='wrap-h3') Making The Water Drinkable
+    div(class='wrap')
+      div(class='item1')
+        img(class='tops' src='/fire.jpg')
+      div(class='item2')
+        img(class='tops' src='/fire.jpg')

@@ -1,44 +1,46 @@
-head
-  <link href='/css/main.css' rel='stylesheet'>
+include head.pug
 
 body
+include nav.pug
+
 div.pages
-  h2 Safe Locations
-    h3 Military Bases
-      div(class='wrap')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item1')
-          img(class='tops' src='/fire.jpg')
-        div(class='item2')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
+  h2(class='no-space') Safe Locations
+  div(class='border')
+  h3(id='military' ) Military Bases
+    div(class='wrap')
+      div(class='item6')
+        img(class='tops' src='/flag.jpg')
+      div(class='item6')
+        img(class='tops' src='/flag.jpg')
+      div(class='item6')
+        img(class='tops' src='/flag.jpg')
+      div(class='item1')
+        img(class='tops' src='/flag.jpg')
+      div(class='item2')
+        img(class='tops' src='/flag.jpg')
+      div(class='item6')
+        img(class='tops' src='/flag.jpg')
+      div(class='item6')
+        img(class='tops' src='/flag.jpg')
+      div(class='item6')
+        img(class='tops' src='/flag.jpg')
 
-    h3 Communities
-      div(class='wrap')
-        div(class='item1')
-          img(class='tops' src='/fire.jpg')
-        div(class='item2')
-          img(class='tops' src='/fire.jpg')
-        div(class='item1 space')
-          img(class='tops' src='/fire.jpg')
-        div(class='item2 space')
-          img(class='tops' src='/fire.jpg')
+  h3(id='communities') Communities
+    div(class='wrap')
+      div(class='item1')
+        img(class='tops' src='/abandoned.jpg')
+      div(class='item2')
+        img(class='tops' src='/abandoned.jpg')
+      div(class='item1 space')
+        img(class='tops' src='/abandoned.jpg')
+      div(class='item2 space')
+        img(class='tops' src='/abandoned.jpg')
 
-    h3 Bunks
-      div(class='wrap')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
-        div(class='item6')
-          img(class='tops' src='/fire.jpg')
+  h3(id='bunks') Bunks
+    div(class='wrap')
+      div(class='item6')
+        img(class='tops' src='/grunge.jpg')
+      div(class='item6')
+        img(class='tops' src='/grunge.jpg')
+      div(class='item6')
+        img(class='tops' src='/grunge.jpg')

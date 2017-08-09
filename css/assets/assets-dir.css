@@ -26,12 +26,11 @@ body {
 
 .title {
   color: #bf0000;
-  font-size: 420px;
+  font-size: 10em;
   margin: 0 auto;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   display: inline-block;
-  top: -10%;
   position: absolute;
   left: 0;
   right: 0; }
@@ -116,7 +115,7 @@ h2 {
         .prepare .contain ul li a:hover {
           text-decoration: underline; }
 
-button.download {
+input.download {
   background-color: red;
   border: none;
   color: white;
@@ -124,6 +123,17 @@ button.download {
   font-weight: bold;
   margin: 0 0 6.5em 0;
   page-break-after: auto; }
+  input.download:hover {
+    border: 0.1em grey solid; }
+
+.eye {
+  color: white;
+  height: 64px;
+  font-size: 30px;
+  width: 60px;
+  float: right;
+  z-index: 30;
+  margin-top: 10px; }
 
 .pages {
   background-color: black;
@@ -139,7 +149,9 @@ button.download {
     font-size: 40px;
     text-align: center;
     margin: -5% 0 -3% 0;
-    text-decoration: underline; }
+    text-decoration: underline;
+    -webkit-text-decoration-color: red;
+            text-decoration-color: red; }
   .pages h3:nth-child(2) {
     margin-top: -1.2em; }
   .pages .wrap {

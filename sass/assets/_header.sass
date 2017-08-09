@@ -1,0 +1,95 @@
+@import "variables"
+@import "tools/tools-dir"
+
+body
+  color: red
+  margin: 0
+  background-color: black
+
+.bck
+  background: url("/darkforest.jpg")
+  height: 100vh
+  width: inherit
+  // background-size: 100% 100%
+  background-position: center center
+  background-size: cover
+  width: auto
+  // @include mq($from: mobile, $until: mobileLandscape)
+  //   height: 99vh
+  //   background-size: 100% 100%
+  // @include mq($from: desktop)
+  //   height: 99vh
+  //   background-size: 100% 100%
+
+.dark
+  background-color: rgba(0,0,0,0.9)
+  transition: all 2s ease
+  width: auto
+  background: url("/darker.jpg")
+  // background-size: 100% 100%
+  background-position: center center
+  background-size: cover
+  height: 100vh
+  // @include mq($from: mobile, $until: mobileLandscape)
+  //   height: 99vh
+  //   background-size: 100% 100%
+
+.ll
+  height: 100vh
+  background-size: 100% 100%
+
+.title
+  color: #bf0000
+  // font-size: 13rem
+  // width: 100%
+  //font-size: 420px
+  margin: 14% auto
+  text-align: center
+  font-family: 'Oswald', sans-serif
+  // vertical-align: middle
+  display: inline-block
+  // top: -10%
+  position: absolute
+  left: 0
+  right: 0
+  @include mq($from: mobileLandscape)
+    margin: -12% auto
+
+  @include mq($from: smallTablet, $until: desktop)
+    // font-size: 21rem
+    margin: -2% auto
+  @include mq($from: desktop)
+    font-size: 36em
+    margin: -7% auto
+
+
+
+.backwards-n
+  transform: scale(-1, 1)
+  display: inline-block
+
+.subs
+  font-family: "Oswald", sans-serif
+  font-weight: bold
+  position: relative
+  text-align: center
+  font-size: 2rem
+  @include mq($from: smallTablet)
+    font-size: 3rem
+
+.subtitles
+  margin-top: -13%
+  @include mq($from: desktop)
+    margin: -10% auto
+
+.subs:last-of-type
+  color: $yuck
+  font-size: 11%
+  text-decoration: overline
+  text-decoration-color: red
+  @include mq($from: mobileLandscape)
+    font-size: 8%
+
+#zombies
+  color: white
+  letter-spacing: 0.2em

@@ -1,3 +1,12 @@
+.eye {
+  color: white;
+  height: 64px;
+  font-size: 30px;
+  width: 60px;
+  float: right;
+  z-index: 30;
+  margin-top: 10px; }
+
 .pages {
   background-color: black;
   padding: 0 4em; }
@@ -5,14 +14,17 @@
     text-decoration: none;
     font-size: 4em;
     color: red;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 0.01em; }
   .pages h3 {
     text-transform: uppercase;
     color: white;
     font-size: 40px;
     text-align: center;
     margin: -5% 0 -3% 0;
-    text-decoration: underline; }
+    text-decoration: underline;
+    -webkit-text-decoration-color: red;
+            text-decoration-color: red; }
   .pages h3:nth-child(2) {
     margin-top: -1.2em; }
   .pages .wrap {

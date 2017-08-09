@@ -1,52 +1,56 @@
-head
-  <link href='/css/main.css' rel='stylesheet'>
+include head.pug
 
 body
 
 
-div.pages
+include nav.pug
+
+div(class='pages')
+
   h2 Weapons
-  h3 guns
+
+  div(class='border')
+  h3(id='guns') guns
     div(class="wrap")
       div(class='item1')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/casing2.jpg')
       div(class='item2')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/casing2.jpg')
       div(class='item3')
-        img(class='tops'  src='/fire.jpg')
+        img(class='tops'  src='/casing2.jpg')
       div(class='nested-items')
         div(class='item4')
-          img(class='tops'  src='/fire.jpg')
+          img(class='tops'  src='/casing2.jpg')
         div(class='item5')
-          img(class='tops'  src='/fire.jpg')
+          img(class='tops'  src='/casing2.jpg')
 
-  h3 knives
+  h3(id='knives' class='less-padding') knives
     div(class="wrap")
       div(class='item3')
-        img(class='tops'  src='/fire.jpg')
+        img(class='tops'  src='/knife.jpg')
       div(class='nested-items')
         div(class='item4')
-          img(class='tops'  src='/fire.jpg')
+          img(class='tops'  src='/knife.jpg')
         div(class='item5')
-          img(class='tops'  src='/fire.jpg')
+          img(class='tops'  src='/knife.jpg')
       div(class='item1')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/knife.jpg')
       div(class='item2')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/knife.jpg')
 
-  h3 household items
+  h3(id='household') household items
     div(class="wrap")
       div(class='item1')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')
       div(class='item2')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')
       div(class='item6')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')
       div(class='item6')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')
       div(class='item6')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')
       div(class='item1')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')
       div(class='item2')
-        img(class='tops' src='/fire.jpg')
+        img(class='tops' src='/axe.jpg')

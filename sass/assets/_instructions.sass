@@ -1,0 +1,107 @@
+@import "variables"
+@import "tools/tools-dir"
+
+h1
+  text-align: center
+  // font-size: 3rem
+  text-decoration: underline
+  text-decoration-style: double
+  padding: 1% 1% 0 1%
+  word-spacing: 0.1em
+
+
+h2
+  text-align: center
+  font-size: 2rem
+  text-decoration: underline
+  letter-spacing: 0.1em
+  font-weight: bolder
+  color: white
+  text-transform: uppercase
+  padding-bottom: 0.3rem
+  @include mq($from: tablet)
+    font-size: 3rem
+    letter-spacing: 0.08em
+  a:link
+    color: red
+    // text-decoration: none
+  a:visited
+    color: $yuck
+
+.prepare
+  text-align: center
+  // background-image: url('/stat.jpg')
+  overflow: visible
+  font-family: 'Saira Extra Condensed', sans-serif
+
+  .contain
+    box-shadow: inset 0px 0px 20px 20px #000
+    background-color: black
+    width: 80%
+    overflow: visible
+    margin: 0 auto
+    padding-bottom: 2em
+
+        // ul: Pages links
+    ul:not(:first-of-type)
+      margin-top: -2rem
+      line-height: 2rem
+    a:hover
+      color: darken(red, 20%)
+    a:visited:hover
+      color: lighten($yuck, 8%)
+
+        // ul: How to Prepare
+
+
+    ul
+      // display: inline
+      display: block
+      // padding-bottom: 20px
+      margin: -2rem 0 -1rem 0
+      padding: 0 0 1rem 0
+      @include mq($from: desktop)
+        margin: -4% 0 3% 0
+
+      li
+        display: inline-block
+        font-size: 1.1em
+        list-style-type: disc
+        a:link, a:visited
+          color: white
+          font-weight: bold
+          text-transform: capitalize
+          // display: list-item
+          text-decoration-color: black
+          // padding-right: 20px
+          @include mq($from: smallTablet)
+            font-size: 1.5rem
+        a:hover
+          text-decoration: underline
+
+button.download
+  background-color: red
+  border: none
+  padding: 0.1rem 0.5rem
+  // font-family: 'Oswald', sans-serif
+  font-family: 'Saira Extra Condensed', sans-serif
+  letter-spacing: 0.1em
+
+  // font-weight: bold
+  margin: 2rem 0 1.5em 0
+  // page-break-after: auto
+  a:link
+    text-decoration: none
+    color: white
+    font-weight: bold
+    font-size: 1.2rem
+  &:hover
+    border: 0.1em grey solid
+    color: white
+
+.fa
+  padding-right: 0.3rem
+
+// hr.style2
+// 	border-top: 10px solid #3b1054
+  // border-bottom: black solid 1px

@@ -26,12 +26,11 @@ body {
 
 .title {
   color: #bf0000;
-  font-size: 420px;
+  font-size: 10em;
   margin: 0 auto;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   display: inline-block;
-  top: -10%;
   position: absolute;
   left: 0;
   right: 0; }

@@ -2,11 +2,18 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald:300|Roboto+Condensed:300" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald:300|Saira+Extra+Condensed" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-  <link href="css/main.css" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/4572b3aeb6.js"></script>
+
   <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -16,53 +23,61 @@
   </div>
   <div class="prepare">
     <div class='contain'>
-    <h1>HOW TO PREPARE</h1>
-      <ul>
+    <!-- <h1 class='howtoprepare'>How To Prepare</h1> -->
+      <!-- <ul class='prep'>
         <li><a href='#weapons'>Weapons</a></li>
         <li><a href='#food'>Food</a></li>
         <li><a href='#medical'>Medical</a></li>
         <li><a href='#safe-locations'>Safe Locations</a></li>
         <li><a href='#skills'>Skills</a></li>
-        <!-- <li><a href='#diy'>DIY</a></li> -->
+        <li><a href='#diy'>DIY</a></li>
         <li><a href='#clothing'>Clothing</a></li>
-      </ul>
+      </ul> -->
 
-<button class='download'>DOWNLOAD GUIDE</button>
+
+
+  <button class=" download"><a href="/downloadguide.pdf"  download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>DOWNLOAD</a></button>
+
+<!-- <button class='download'> -->
+
+      <!-- <input type="button" class="download" value="download" /><a href="/Users/Victoria/Downloads/Untitled%20document.pdf" class="downloadLink">Hyperlink</a></button> -->
 <hr style="background:#16151b; border:0; height:3px" />
+<div class='menulinks'>
+
 
       <h2 id='weapons' ><a href='/_includes/weapons.html'>Weapons</a></h2>
       <ul>
-        <li><a href='#'>Guns</a></li>
-        <li><a href='#'>Knives</a></li>
-        <li><a href='#'>Household items</a></li>
+        <li><a href='/_includes/weapons.html#guns'>Guns</a></li>
+        <li><a href='/_includes/weapons.html#knives'>Knives</a></li>
+        <li><a href='/_includes/weapons.html#household'>Household items</a></li>
       </ul>
       <h2 id='food'><a href='/_includes/food.html'>Food</a></h2>
       <ul>
-        <li><a href='#'>Growing a garden</a></li>
-        <li><a href='#'>canned food</a></li>
-        <li><a href='#'>Where to find</a></li>
+        <li><a href='/_includes/food.html#garden'>Growing a garden</a></li>
+        <li><a href='/_includes/food.html#cannedfood'>canned food</a></li>
+        <li><a href='/_includes/food.html#wheretofind'>Where to find</a></li>
       </ul>
 
       <h2 id='medical'><a href='/_includes/medical.html'>Medical</a></h2>
       <ul>
-        <li><a href='#'>symptoms</a></li>
-        <li><a href='#'>first aid</a></li>
-        <li><a href='#'>medication</a></li>
+        <li><a href='/_includes/medical.html#symptoms'>symptoms</a></li>
+        <li><a href='/_includes/medical.html#firstaid'>first aid</a></li>
+        <li><a href='/_includes/medical.html#medication'>medication</a></li>
       </ul>
 
 
       <h2 id='safe-locations'><a href="/_includes/safe-locations.html">safe locations</a></h2>
       <ul>
-        <li><a href='#'>military bases</a></li>
-        <li><a href='#'>communities</a></li>
-        <li><a href='#'>bunks</a></li>
+        <li><a href='/_includes/safe-locations.html#military'>military bases</a></li>
+        <li><a href='/_includes/safe-locations.html#communities'>communities</a></li>
+        <li><a href='/_includes/safe-locations.html#bunks'>bunks</a></li>
       </ul>
 
       <h2 id='skills'><a href="/_includes/skills.html">skills</a></h2>
       <ul>
-        <li><a href='#'>hunting</a></li>
-        <li><a href='#'>building a shelter</a></li>
-        <li><a href='#'>making the water drinkable</a></li>
+        <li><a href='/_includes/skills.html#hunting'>hunting</a></li>
+        <li><a href='/_includes/skills.html#shelter'>building a shelter</a></li>
+        <li><a href='/_includes/skills.html#water'>making the water drinkable</a></li>
       </ul>
 
       <!-- <h2 id='diy'><a href="/_includes/diy.html">DIY</a></h2>
@@ -73,11 +88,16 @@
 
       <h2 id='clothing'><a href="/_includes/clothing.html">clothing</a></h2>
       <ul>
-        <li><a href='#'>bite free gear</a></li>
+        <li><a href='/_includes/clothing.html#bitefree'>bite free gear</a></li>
 
       </ul>
       </div>
+      </div>
     </div>
+    <script>
+    $( ".bck" ).switchClass( "bck", "dark", 1000 );
+
+    </script>
 </body>
 
 </html>
