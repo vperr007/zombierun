@@ -5,7 +5,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 // $('.title').effect('shake', {times:1}, 300);
 
-$(".title").fitText(0.2, { minFontSize: '170px', maxFontSize: '440px' });
+$(".title").fitText(0.2, { minFontSize: '140px', maxFontSize: '440px' });
 $(".howtoprepare").fitText(1.2, { minFontSize: '35px', maxFontSize: '65px' });
 $("h3").fitText(2.2, { minFontSize: '20px', maxFontSize: '90px' });
 

@@ -14,9 +14,9 @@ body
   background-position: center center
   background-size: cover
   width: auto
-  // @include mq($from: mobile, $until: mobileLandscape)
-  //   height: 99vh
-  //   background-size: 100% 100%
+  @include mq($from: mobile, $until: mobileLandscape)
+    height: 59vh
+    background-size: 100% 100%
   // @include mq($from: desktop)
   //   height: 99vh
   //   background-size: 100% 100%
@@ -30,9 +30,9 @@ body
   background-position: center center
   background-size: cover
   height: 100vh
-  // @include mq($from: mobile, $until: mobileLandscape)
-  //   height: 99vh
-  //   background-size: 100% 100%
+  @include mq($from: mobile, $until: mobileLandscape)
+    height: 59vh
+    background-size: 100% 100%
 
 .ll
   height: 100vh
@@ -52,12 +52,14 @@ body
   position: absolute
   left: 0
   right: 0
+  @include mq($from: mobile, $until: mobileLandscape)
+      margin: -5% auto
   @include mq($from: mobileLandscape)
     margin: -12% auto
 
   @include mq($from: smallTablet, $until: desktop)
     // font-size: 21rem
-    margin: -2% auto
+    margin: -2rem auto
   @include mq($from: desktop)
     font-size: 36em
     margin: -7% auto
@@ -73,9 +75,9 @@ body
   font-weight: bold
   position: relative
   text-align: center
-  font-size: 2rem
+  font-size: 1.8rem
   @include mq($from: smallTablet)
-    font-size: 3rem
+    font-size: 2.5rem
 
 .subtitles
   margin-top: -13%
